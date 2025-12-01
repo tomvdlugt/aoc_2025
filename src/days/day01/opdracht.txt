@@ -1,0 +1,20 @@
+1. Wat is de opdracht in simpele woorden?
+
+Je hebt:
+Een linker lijst met getallen
+Een rechter lijst met getallen
+
+Elke regel in je input is zoiets als:
+123 456
+(linker getal, rechter getal)
+
+De bedoeling:
+Verzamel alle linker getallen in één lijst.
+Verzamel alle rechter getallen in een andere lijst.
+Sorteer beide lijsten apart van klein naar groot.
+
+Paar ze per index: left[i] met right[i].
+Voor elk paar: bereken afstand = abs(left[i] - right[i]).
+
+Tel al die afstanden op → dat ene getal is je antwoord.
+Dat is alles.
